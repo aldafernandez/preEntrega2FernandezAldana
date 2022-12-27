@@ -1,32 +1,37 @@
 .teddy{
-    width: 50px;
-    height: 50px;
+    width: 55px;
+    height: 55px;
 }
 .carousel-inner img {
     max-height: 460px;
-}
-.carousel-item-active{
-    display: flex;
-    position: relative;
-   
 }
 .navbar{
     font-family: sans-serif;
     font-size: 50x;
 }
 /*Inicio*/
-.portada{
-    display: flex;
-    position: absolute;
-    left: 70%;
-    top: 50%;
+h2{
+    justify-content: center;
     color: black;
-    font-family: sans-serif;
-    font-size: 30px;
-    text-decoration: none;
-}
 
+}
 .card{
     margin: 30px;
 
+}
+ul{
+    list-style-type: none;
+    gap: 20px;
+    font-size: 40px;
+}
+.container{
+    margin-top: 20px;
+}
+
+.redes{
+    font-size: 30px;
+    
+}
+.card:hover{
+    transform: scale(1.2);
 }
