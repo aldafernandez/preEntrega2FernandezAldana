@@ -35,3 +35,7 @@ ul{
 .card:hover{
     transform: scale(1.2);
 }
+/*Contacto*/
+.formulario{
+    margin: 20px;
+}
